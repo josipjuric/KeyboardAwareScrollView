@@ -3,14 +3,15 @@ Swift protocol extension for automatically adjusting ScrollView offset when keyb
 
 There is no any pod installation required!
 
-####To use it:
+#### How to use it:
 1. Drag KeyboardAwareScrollView file to you XCode project
 2. In you ViewController add conformance to the KeyboardAwareScrollView protocol
 3. Drag outlet for your UIScrollView in your ViewController and name it "scrollView"
 4. In your ViewDidLoad method add "self.setupKeyboardListener()"
 
 
-#### Example usage:
+### Example usage:
+
 ```swift
 class HomeViewController: UIViewController, KeyboardAwareViewController  {
 
